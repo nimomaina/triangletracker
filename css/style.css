@@ -5,7 +5,7 @@
 
 .triangle-down {
   width: auto;
-  height: 0;
+  height: 300px;
   border-left: 675px solid transparent;
   border-right: 675px solid transparent;
   border-top: 300px solid #941750;
@@ -14,8 +14,6 @@ body{
   background-color: #E3E2DF;
 }
 #textheader{
-  padding-bottom: 500px;
-  pa
   text-decoration: none;
   text-align: center;
 
