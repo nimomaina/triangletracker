@@ -18,22 +18,24 @@ body{
   text-align: center;
 
 }
+
+.row{
+  width: 100%;
+}
 .column1{
-  width: 500px;
+  width: 43%;
   height: 300px;
-  
-  border-right: 5px solid #941750;
+  float: left;
+  padding: 10px 50px 10px 50px;
+  border-right: 13px solid #941750;
 
-
-  border-bottom: 5px solid #941750;
 }
 
 .column2{
-  width: 500px;
+  width: 41%;
   height: 300px;
+  float: right;
+  padding: 10px 50px 10px 50px;
 
-  border-right: 5px solid #941750;
 
-
-  border-bottom: 5px solid #941750;
 }
