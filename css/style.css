@@ -12,8 +12,28 @@
 body{
   background-color: #E3E2DF;
 }
+
 #textheader{
   text-decoration: none;
   text-align: center;
 
+}
+.column1{
+  width: 500px;
+  height: 300px;
+  
+  border-right: 5px solid #941750;
+
+
+  border-bottom: 5px solid #941750;
+}
+
+.column2{
+  width: 500px;
+  height: 300px;
+
+  border-right: 5px solid #941750;
+
+
+  border-bottom: 5px solid #941750;
 }
