@@ -3,20 +3,22 @@ function triangletracker() {
   var b = parseInt(document.getElementById("side2").value);
   var c = parseInt(document.getElementById("side3").value);
 
+  var type = ['Equilateral', 'Isosceles', 'Scalene', 'Not a triangle']
+
 
   if(a + b > c && b + c > a && a + c > b){
     if(a == b && b == c && a == c){
-      document.getElementById("output").value = "This is an equilateral triangle";
+      document.getElementById("output").value = type[0];
     }//end of equilateral if
     else if (a == b || b == c || a == c) {
-      document.getElementById("output").value = "This is an Isosceles triangle";
+      document.getElementById("output").value = type[1];
     }//end of isosceles if
     else {
-      document.getElementById("output").value = "This is a Scalene triangle";
+      document.getElementById("output").value = type[2];
     }
   }
   else{
-    document.getElementById("output").value = "This is not a triangle";
+    document.getElementById("output").value = type[3];
 
   }//end of parent if
 }//end of function
