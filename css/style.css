@@ -39,7 +39,7 @@ body{
   height: 210px;
   float: left;
   padding: 10px 50px 10px 50px;
-  border-right: 2px solid #606F7B;
+  border-right: 1px solid #606F7B;
 
 }
 
@@ -59,7 +59,7 @@ body{
   border-color: #606F7B;
 }
 
-.align{
+#align{
   text-align: center;
   font-size: 20px;
   font-style: oblique;
@@ -80,3 +80,11 @@ body{
    background-color: #3D4852;
    color: #FFF;
  }
+.text-border{
+  border: 2px;
+}
+.text-border p {
+  padding: 10px;
+  border-color: #606F7B;
+  margin: 10px;
+}
