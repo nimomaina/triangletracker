@@ -51,9 +51,14 @@ body{
 }
 
 .input{
-  padding: 10px;
+  padding: 12px;
   width: 500px;
+  margin: 5px;
+  border: 2px;
+  border-radius: 2px;
+  border-color: #606F7B;
 }
+
 #align{
   text-align: center;
   font-size: 20px;
@@ -61,3 +66,11 @@ body{
   font-style: oblique;
   font-family: georgia;
 }
+ .button{
+   padding: 10px;
+   color: #606F7B;
+   width: 100px;
+   margin: 5px;
+   border: 2px;
+   border-color: #606F7B;
+ }
