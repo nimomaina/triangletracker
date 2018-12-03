@@ -3,7 +3,7 @@ function triangletracker() {
   var b = parseInt(document.getElementById("side2").value);
   var c = parseInt(document.getElementById("side3").value);
 
-  var type = ['Equilateral triangle', 'Isosceles triangle', 'Scalene triangle', 'Not a triangle']
+  var type = ['Equilateral triangle', 'Isosceles triangle', 'Scalene triangle', 'Not a triangle'];
 
 
   if(a + b > c && b + c > a && a + c > b){
