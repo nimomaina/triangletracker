@@ -1,6 +1,7 @@
 # Triangle Tracker
  A program to find the type of triangle when a user inputs values.
-## By **Wairimu Maina**
+## By Wairimu Maina
+A student at Moringa School and an aspiring software developer.
 ## Description
 This is a site that takes three values from a user and gives the type of triangle depending on those values.
 
