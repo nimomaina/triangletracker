@@ -5,11 +5,12 @@ A student at Moringa School and an aspiring software developer.
 ## Description
 This is a site that takes three values from a user and gives the type of triangle depending on those values.
 
-##BDD
-the site compares the three values given by the user.
-* It first checks whether the values can form a triangle if the sum of two sides is greater than the other side. If not it tell a user its not a triangle.
+## Behaviour Driven Development (BDD)
+The site compares the three values given by the user.
+* It first checks whether the values can form a triangle if the sum of two sides is greater than the other side. If not it tells the user it's not a triangle.
 * When the the user inputs equal values it gives an equilateral triangle.
-* when only two sides are equal, it gives an Isosceles triangle but if none of the sides are equal it outputs a scalene triangle.
+* When only two sides are equal and the sum of two sides is greater than the remaining side, it gives an Isosceles triangle
+* If none of the sides are equal and the sum of two sides is greater than the remaining side it outputs a scalene triangle.
 
 ## Setup/Installation Requirements
 * Have knowledge of Github, HTML, JAVASCRIPT and CSS.
