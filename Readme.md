@@ -2,7 +2,7 @@
  A program to find the type of triangle when a user inputs values.
 ## By **Wairimu Maina**
 ## Description
-This is a site that takes three values from a user and gives the type of triangle the values form
+This is a site that takes three values from a user and gives the type of triangle depending on those values.
 
 ##BDD
 the site compares the three values given by the user.
